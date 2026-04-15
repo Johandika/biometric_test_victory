@@ -1,3 +1,22 @@
-package-lock.json
-package.json
-node_modules
+# Dependency
+node_modules/
+
+# Log absensi dan foto yang tersimpan saat testing
+*.jpg
+*.jpeg
+*.png
+ABSEN_*.jpg
+PROFIL_*.jpg
+
+# Log sistem
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables (jika nanti pakai file .env)
+.env
+
+# OS Metadata
+.DS_Store
+Thumbs.db
